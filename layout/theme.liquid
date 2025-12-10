@@ -22,6 +22,7 @@
     {{ content_for_header }}
 
     {{ 'theme.css' | asset_url | stylesheet_tag }}
+  {% render 'rapid-search-settings' %}
 </head>
 
 <body
